@@ -1,6 +1,6 @@
 ---
 title: Forms
-description: We set out to create an easy, powerful and versatile form layout system. A combination of form styles and the Foundation grid means you can do almost anything.
+Propusemo-nos criar um sistema de layout de formulário fácil, poderoso e versátil. Uma combinação de estilos para formulário com a grade Foundation significa que você pode fazer quase qualquer coisa.
 sass:
   - scss/forms/*.scss
   - '!scss/forms/_error.scss'
@@ -14,13 +14,13 @@ flex: true
 
 ## Form Basics
 
-Creating a form in Foundation is designed to be easy but extremely flexible. Forms are built with a combination of standard form elements, as well as grid rows and columns.
+Criar um formulário Foundation é projetado para ser fácil, mas extremamente flexível. Formas são construídas com uma combinação de elementos padrões de formulário, bem como linhas, grades e colunas.
 
 ---
 
 #### Text Inputs
 
-These input types create a text field: `text`, `date`, `datetime`, `datetime-local`, `email`, `month`, `number`, `password`, `search`, `tel`, `time`, `url`, and `week`.
+Estes tipos de entrada criar um campo de texto: `text`, `date`, `datetime`, `datetime-local`, `email`, `month`, `number`, `password`, `search`, `tel`, `time`, `url`, and `week`.
 
 ```html_example
 <form>
@@ -43,7 +43,7 @@ These input types create a text field: `text`, `date`, `datetime`, `datetime-loc
 
 #### Number Inputs
 
-In most desktop browsers, `<input type="number">` elements will have up/down controls inside them, which increment and decrement the number inside the field. These are called *spin buttons*. You can disable them by setting the `$input-number-spinners` Sass variable to `false`.
+Na maioria dos navegadores desktop, <input type="number"> os elementos terá uma seta cima / baixo para controles dentro de cada campo numérico, que ao clicar aumentar ou diminuir o número. Estes são chamados de botões de rotação. Você pode desativá-los, definindo '$input-number-spinners' Sass para 'false'.
 
 ```html_example
 <label>
@@ -56,7 +56,7 @@ In most desktop browsers, `<input type="number">` elements will have up/down con
 
 #### Text Areas
 
-The `<textarea>` element creates a multi-line text input.
+O elemento `<textarea>` cria uma entrada de texto multilinha.
 
 ```html_example
 <label>
@@ -69,7 +69,7 @@ The `<textarea>` element creates a multi-line text input.
 
 #### Select Menus
 
-Use select menus to combine many choices into one menu.
+Use os menus selecionados para combinar varias opções em um menu.
 
 ```html_example
 <label>Select Menu
@@ -82,7 +82,7 @@ Use select menus to combine many choices into one menu.
 </label>
 ```
 
-Add the `multiple` attribute to allow more than one option to be selected. Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.
+Adicione o atributo `multiple` para permitir que mais de uma opção seja selecionada. Mantenha pressionado o botão Ctrl (windows) / Command (Mac) para selecionar várias opções.
 
 ```html_example
 <label>Multiple Select Menu
@@ -249,9 +249,10 @@ Use `<input type="file">` to create a file upload button. For security reasons, 
 
 ## Custom Controls
 
-Custom form controls, like date pickers, range sliders, or switches need some extra attention to be made accessible. Our custom inputs, such as the range slider and switch, do most of this work for you.
+Os controles de formulário personalizados, como os selecionadores de data, os controles deslizantes de intervalo ou os switches precisam de alguma atenção extra para serem tornados acessíveis. Nossas entradas personalizadas, como o controle deslizante de faixa e o switch, fazem a maior parte desse trabalho para você.
 
-Custom inputs with labels or help text need the attributes `aria-labelledby` and `aria-describedby` added to them, so screen readers know how to describe the control.
+Entradas personalizadas com etiquetas ou texto de ajuda precisam dos atributos `aria-labelledby` e `aria-describedby` adicionados a eles,  para que os leitores de tela saibam como descrever o controle.
+
 
 ```html
 <label id="ageLabel">Age</label>
